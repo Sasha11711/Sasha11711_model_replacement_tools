@@ -43,7 +43,7 @@ class S11711_OT_HandleClothChain(bpy.types.Operator):
 
     @classmethod
     def poll(self, context):
-        return context.object.mode == "EDIT" and context.active_bone in context.selected_bones
+        return context.mode == "EDIT_ARMATURE" and context.active_bone in context.selected_bones
     
     def execute(self, context):
         props = context.scene.s11711_props

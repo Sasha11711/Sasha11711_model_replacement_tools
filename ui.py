@@ -9,7 +9,7 @@ class BasePanel:
 
 class S11711_PT_UIPanel(BasePanel, Panel):
     bl_idname = "S11711_PT_UIPanel"
-    bl_label = "Sasha11711"
+    bl_label = "Sasha11711's Model Replacement Tools"
 
     def draw(self, context: Context):
         props = context.scene.s11711_props
