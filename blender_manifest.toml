@@ -11,7 +11,7 @@ maintainer = "Sasha11711"
 type = "add-on"
 
 # Optional link to documentation, support, source files, etc
-# website = ""
+website = "https://github.com/Sasha11711/Sasha11711_model_replacement_tools"
 
 # Optional list defined by Blender and server, see:
 # https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
